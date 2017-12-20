@@ -1,0 +1,1 @@
+gdal_calc -A ECF1.tif --A_band=4 -B ECF1.tif --B_band=1 --outfile=ECF1_ndvi.tif --calc="(A-B)/(A+B)"
